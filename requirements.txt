@@ -1,4 +1,4 @@
-torch torchvision torchaudio
+https://download.pytorch.org/whl/cpu
 numpy
 opencv-python==4.5.3.56
 matplotlib
