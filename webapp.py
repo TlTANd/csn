@@ -55,7 +55,7 @@ st.title("Corrosion Detection")
 
 @st.cache_resource
 def load_model():
-  path = '/content/drive/My Drive/Corrosion_Detection.pth'
+  path = 'Corrosion_Detection.pth'
   model = Corrosion_Detection()
   model.load_state_dict(torch.load(path, map_location='cpu'))
   return model
